@@ -640,7 +640,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     position: relative;
 }
 .SDET > .book_trail > .left_container > .details > div {
-    column-gap: 11%;
+    column-gap: 10%;
     padding-left: 7%;
     row-gap: 20px;
 }
@@ -684,7 +684,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     left: 53%;
 }
 .SDET > .book_trail > .left_container > .details > div > #two {
-    left:51%;
+    left:50%;
 }
 .AI > .book_trail > .left_container > .details > div > #two {
     left: 50%;
@@ -708,7 +708,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 }
 .SDET > .book_trail > .left_container > .details > div > #four {
     top: 60%;
-    left: 51%;
+    left: 50%;
 }
 .AI > .book_trail > .left_container > .details > div > #four {
     top: 52%;
