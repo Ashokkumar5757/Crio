@@ -423,7 +423,7 @@ content > .project > .project_details > .image_container > .images {
     animation: scrollpause 30s 2s infinite ;
 }
 .project_details > .image_container > .images > div {
-    height: 72vh;
+    height: 75vh;
     width: 30vw;
     padding: .5% .5% 5% .5%;
     background-color: #F2FBF7;
@@ -788,15 +788,21 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     top: 24%;
 }
 .book_trail > .right_container > #cap {
+    top: 38%;
+}
+.SDET > .book_trail > .right_container > #cap {
     top: 39%;
 }
-.SDET > .book_trail > .right_container > #cap,.AI > .book_trail > .right_container > #cap {
+.AI > .book_trail > .right_container > #cap {
     top: 41%;
 }
 .book_trail > .right_container > #bag {
-    top: 55%;
+    top: 53%;
 }
-.SDET > .book_trail > .right_container > #bag,.AI > .book_trail > .right_container > #bag {
+.SDET > .book_trail > .right_container > #bag {
+    top: 56%;
+}
+.AI > .book_trail > .right_container > #bag {
     top: 58%;
 }
 .book_trail > .right_container > .description {
@@ -1028,7 +1034,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     border-radius: 10px;
     position: relative;
     transform: rotateZ(45deg);
-    top: 55%;
+    top: 54%;
     left: 46%;
 }
 .vp_engineering > div > .person {
@@ -1233,7 +1239,7 @@ content > .community > .reviews > .review_contaniner {
     position: absolute;
     color: white;
     font-size: 36px;
-    top: 23%;
+    top: 24%;
     left: 43%;
 }
 .content > div > .top_container > .top > span > a > i:hover,.top > img:hover {
