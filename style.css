@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family:sans-serif
 }
-main {
-    overflow: hidden;
-}
 body > .fixed{
     width: 100%;
     position: sticky;
@@ -121,6 +118,7 @@ home > .left_container > .video {
     align-items: center;
     margin-top: 3%;
     margin-bottom: 3%;
+    width: fit-content;
 }
 home > .left_container > .video > i {
     color: #2DF8C5;
@@ -313,17 +311,17 @@ home > .right_container > div > span {
     margin-bottom: 3%;
     line-height: 45px;
 }
-
+.grades > div {
+    overflow: hidden;
+}
 marque > .one{
     display: flex;
-    white-space: nowrap;
     column-gap: 15px;
     animation: scrolling 50s linear 1s infinite ;
 }
 marque > .two {
     margin-top: 1%;
     display: flex;
-    white-space: nowrap;
     column-gap: 15px;
     animation: scrolling 45s linear 1s infinite ;
 }
@@ -423,9 +421,9 @@ content > .project > .project_details > .image_container > .images {
     animation: scrollpause 30s 2s infinite ;
 }
 .project_details > .image_container > .images > div {
-    height: 75vh;
+    height: fit-content;
     width: 30vw;
-    padding: .5% .5% 5% .5%;
+    padding: .5%;
     background-color: #F2FBF7;
     border-radius: 20px;
 }
@@ -570,7 +568,7 @@ content > .career > .images {
     flex-wrap: wrap;
 }
 content > .career > .images > div {
-    height: 50vh;
+    height: fit-content;
     width: 23vw;
     padding: 2.25% 2%;
     border-radius: 30px;
@@ -641,7 +639,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 }
 .SDET > .book_trail > .left_container > .details > div {
     column-gap: 10%;
-    padding-left: 7%;
+    padding-left: 8%;
     row-gap: 20px;
 }
 .AI > .book_trail > .left_container > .details > div {
@@ -649,7 +647,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     padding-left: 8%;
     row-gap: 29px;
 }
-.book_trail > .left_container > .details > div > i {
+.book_trail > .left_container > .details > div > p > i {
     color: #2DF8C5;
     position: absolute;
     font-size: 22px;
@@ -668,50 +666,16 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     color: rgba(0,66,70,255);
     border-radius: 50%;
 }
-.book_trail > .left_container > .details > div > #one {
-    top: 16%;
+.book_trail > .left_container > .details > div > p > i {
     left: 5%;
 }
-.SDET > .book_trail > .left_container > .details > div > #one {
+.book_trail #two , .book_trail #four {
+    left: 54%;
+}
+.SDET #one ,.SDET #three,.AI #one ,.AI #three {
     left: 3%;
 }
-.AI > .book_trail > .left_container > .details > div > #one {
-    left: 3%;
-    top: 19%;
-}
-.book_trail > .left_container > .details > div > #two {
-    top: 16%;
-    left: 53%;
-}
-.SDET > .book_trail > .left_container > .details > div > #two {
-    left:50%;
-}
-.AI > .book_trail > .left_container > .details > div > #two {
-    left: 50%;
-    top: 19%;
-}
-.book_trail > .left_container > .details > div > #three {
-    top: 58%;
-    left: 5%;
-}
-.SDET > .book_trail > .left_container > .details > div > #three {
-    top: 61%;
-    left: 3%;
-}
-.AI > .book_trail > .left_container > .details > div > #three {
-    top: 52%;
-    left: 3%;
-}
-.book_trail > .left_container > .details > div > #four {
-    top: 58%;
-    left: 53%;
-}
-.SDET > .book_trail > .left_container > .details > div > #four {
-    top: 60%;
-    left: 50%;
-}
-.AI > .book_trail > .left_container > .details > div > #four {
-    top: 52%;
+.SDET #two ,.SDET #four, .AI #two ,.AI #four{
     left: 50%;
 }
 .book_trail > .left_container > .details > div > .p {
@@ -772,38 +736,11 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 .SDET > .right_container ,.AI > .right_container {
     width: 40%;
 }
-.book_trail > .right_container > i {
+.book_trail > .right_container > .description > i {
     position: absolute;
-    color: gainsboro;
+    background-color:rgba(1,52,55,255) ;
     font-size: 30px;
     left: 5%;
-}
-.book_trail > .right_container > #unlock {
-    top: 7%;
-}
-.book_trail > .right_container > #calendar {
-    top: 23%;
-}
-.SDET > .book_trail > .right_container > #calendar, .AI > .book_trail > .right_container > #calendar {
-    top: 24%;
-}
-.book_trail > .right_container > #cap {
-    top: 38%;
-}
-.SDET > .book_trail > .right_container > #cap {
-    top: 39%;
-}
-.AI > .book_trail > .right_container > #cap {
-    top: 41%;
-}
-.book_trail > .right_container > #bag {
-    top: 53%;
-}
-.SDET > .book_trail > .right_container > #bag {
-    top: 56%;
-}
-.AI > .book_trail > .right_container > #bag {
-    top: 58%;
 }
 .book_trail > .right_container > .description {
     height: 11vh;
@@ -1014,28 +951,32 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 .vp_engineering > div {
     width: 50%;
 }
-.vp_engineering > div > p {
+.vp_engineering > .left > .para > p {
+    padding: 12.5% 6%;
+}
+.vp_engineering > div > .para {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.vp_engineering > div > .para > p {
     font-size: 18px;
     background-color: #2DF8C5; 
     padding: 10% 6%;
     border-radius: 50px;
-    height: 38vh;
     line-height: 30px;
     text-align: center;
     display: flex;
     align-items: center;
-    position: relative;
-    z-index: 1;
 }
-.vp_engineering > div > .box {
+.vp_engineering > div > .para > .box {
     height: 50px;
     width: 50px;
     background-color: #2DF8C5; 
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     transform: rotateZ(45deg);
-    top: 54%;
-    left: 46%;
+    top: 90%;
 }
 .vp_engineering > div > .person {
     margin-top: 6%;
@@ -1086,17 +1027,14 @@ content > .career_services > div > div > p {
     line-height: 25px;
     font-size: 18px;
 }
-content > .career_services > div > .last {
-    height: 29vh;
-}
 content > .community > .get_more {
     width: 70%;
     background-color: #2DF8C5; 
     border-radius: 30px;
     margin: auto;
     margin-top: 3%;
-    padding: 1% 5%; 
-    height:32vh;
+    padding: 2% 5%; 
+    height:fit-content;
 }
 content > .community > .get_more > h1 {
     text-align: center;
@@ -1379,7 +1317,7 @@ content > .community > .reviews > .review_contaniner {
     color: #2DF8C5;
 }
 .certification > .chat_us > .right > div > img {
-    height: 300px;
+    height: 102%;
     position: absolute;
     top: 12%;
 }
@@ -1636,45 +1574,50 @@ table #correct {
     color: white;
     font-size: 20px;
 }
-.chatbot > .chatbot_message {
+.chatbot{
+    width:150px;
+    height: 170px;
     position: fixed;
-    bottom: 20%;
-    left: 44%;
-    width: 100%;
-    z-index: 2;
-}
-.chatbot > .chatbot_img {
-    position: fixed;
-    bottom: 6%;
-    left: 44%;
-    width: 100%;
-    z-index: 2;
-}
-.chatbot > .chatbot_message > div,.chatbot_img > div {
+    bottom: 45px;
+    right: 20px;
+    z-index: 6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.chatbot > .chatbot_message > div >.box {
+.chatbot > .chatbot_message {
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0px 4px 15px -2px rgb(177, 175, 175);
     position: relative;
-    top: 63px;
+    border-radius: 10px;
+}
+.chatbot > .chatbot_message > p {
+    position: relative;
+    z-index: 1;
+}
+.chatbot > .chatbot_img {
+    height: 55%;
+}
+.chatbot > .chatbot_message >.box {
+    position: absolute;
+    bottom: -7px;
     height: 15px;
     width: 15px;
     background-color: white;
     transform: rotateZ(45deg);
-}
-.chatbot > .chatbot_message > div > p {
-    width: 10%;
-    font-size: 14px;
-    padding: 8px;
-    line-height: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 9px -1px #ababab;
+    margin: auto;
+    z-index: 0;
 }
 .chatbot > .chatbot_img > div > img {
-    margin-top: 1%;
+    margin-top: 10%;
     height: 85px;
     width: 85px;
 }
