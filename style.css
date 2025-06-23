@@ -167,7 +167,8 @@ home > .left_container > .details > div , .score > div > .details > div {
     justify-content: center;
     align-items: center;
     border-left: 1px rgba(128, 128, 128, 0.299) solid;
-    height: 15vh;
+    height: fit-content;
+    padding-bottom: 2%;
     width: 10vw;
 }
 home > .left_container > .details > div > h1, .score > div > .details > div > h1 {
