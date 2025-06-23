@@ -633,13 +633,13 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     line-height: 20px;
     column-gap: 13%;
     row-gap: 10px;
-    padding-left: 10%;
+    padding-left: 9%;
     border-radius: 10px;
     position: relative;
 }
 .SDET > .book_trail > .left_container > .details > div {
     column-gap: 10%;
-    padding-left: 8%;
+    padding-left: 7%;
     row-gap: 20px;
 }
 .AI > .book_trail > .left_container > .details > div {
@@ -667,10 +667,10 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     border-radius: 50%;
 }
 .book_trail > .left_container > .details > div > p > i {
-    left: 5%;
+    left: 4%;
 }
 .book_trail #two , .book_trail #four {
-    left: 54%;
+    left: 53%;
 }
 .SDET #one ,.SDET #three,.AI #one ,.AI #three {
     left: 3%;
@@ -724,6 +724,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 }
 .book_trail > .left_container > .specialisation > div > span {
     color: rgb(224, 224, 224);
+    width: 101%;
     display: flex;
     justify-content: center;
 }
@@ -1317,7 +1318,7 @@ content > .community > .reviews > .review_contaniner {
     color: #2DF8C5;
 }
 .certification > .chat_us > .right > div > img {
-    height: 102%;
+    width: 19vw;
     position: absolute;
     top: 12%;
 }
