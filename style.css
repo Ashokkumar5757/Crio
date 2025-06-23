@@ -1275,9 +1275,6 @@ content > .community > .reviews > .review_contaniner {
     margin: auto;
     margin-top: 8%;
 }
-.certification > .certificate > .left > img {
-    height: 250px;
-}
 .certification > .certificate > .right > h1 {
     margin-bottom: 2%;
     font-size: 23px;
@@ -1402,8 +1399,6 @@ table #correct {
 }
 .address {
     background-color: #2DF8C5;
-    height: fit-content;
-    padding-bottom: 33%;
 }
 .news {
     height: 80vh;
@@ -1477,8 +1472,9 @@ table #correct {
 }
 .contents {
     margin: auto;
-    margin-top: 12%;
+    margin-top: 4%;
     width: 80vw;
+    padding-bottom: 4%;
 }
 .contents > .content{
     display: flex;
