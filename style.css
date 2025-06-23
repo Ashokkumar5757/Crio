@@ -1401,7 +1401,8 @@ table #correct {
 }
 .address {
     background-color: #2DF8C5;
-    height: 160vh;
+    height: fit-content;
+    padding-bottom: 33%;
 }
 .news {
     height: 80vh;
