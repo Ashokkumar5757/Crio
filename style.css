@@ -831,6 +831,7 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 } 
 .work > .companies > div > .btn > .animation {
     overflow: hidden;
+    margin: 0% 1%;
 }
 .work > .companies > div > .btn > .animation > .image_container > .images {
     display: flex;
