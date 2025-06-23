@@ -837,11 +837,11 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
     display: flex;
     width: 95%;
     justify-content: space-between;
-    column-gap: 7%;
+    column-gap: 6.5%;
     animation: scrollpause2 55s 2s infinite ;
 }
 .work > .companies > .startup > .btn > .animation > .image_container > .images {
-    column-gap: 6%;
+    column-gap: 5%;
     animation: scrollpause2 60s 2s infinite ;
 }
 .work > .companies > div > .btn > .animation > .image_container  img {
