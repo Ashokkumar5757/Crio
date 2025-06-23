@@ -1267,11 +1267,10 @@ content > .community > .reviews > .review_contaniner {
     display: flex;
     align-items: center;
     column-gap: 6%;
-    padding: 3%;
+    padding: 3% 1%;
     background-color: #E1F1EA;
     border-radius: 30px;
     width: 80%;
-    height: 43vh;
     margin: auto;
     margin-top: 8%;
 }
