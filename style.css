@@ -1401,9 +1401,9 @@ table #correct {
     background-color: #2DF8C5;
 }
 .news {
-    height: 80vh;
+    height: fit-content;
     margin-top: 7%;
-    padding-bottom: 650px;
+    padding-bottom: 7%;
     background-color: white;
     border-bottom-left-radius:250px ;
     border-bottom-right-radius:250px ;
