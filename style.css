@@ -90,7 +90,7 @@ body  nav > .topic > a:last-child:hover{
     background-color: darkgreen;
 }
 content > home {
-    margin: 37px 8% 1% 9%;
+    margin: 37px 8% 3% 9%;
     display: flex;
     column-gap: 4%;
 }
