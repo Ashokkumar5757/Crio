@@ -1511,7 +1511,6 @@ table #correct {
 }
 .contact > i ,.contact > .customer > i,.contact > .enquiries > i {
     position: absolute;
-    font-size: 1.2em;
     left: 10%;
 }
 .contents > .content > .contact > .customer,.contact > .enquiries {
