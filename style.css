@@ -147,22 +147,26 @@ home > .left_container > .video > label > a {
     font-weight: 700;
     margin-left: 16px;
 }
-home > .left_container > .details , .score > div > .details {
+home > .left_container > .details , .score > .details {
+    width: 100%;
     display: flex;
     background-color: #F2FBF7;
     border-radius: 20px;
-    width: 100%;
 }
-.score > div {
+home > .left_container > .details > div, .score > .details > div {
+    width: 10em;
+}
+.score  {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-.score > div > .details {
+.score > .details {
     margin-top: 4%;
     width: 50%;
     margin-bottom: 5%;
 }
-home > .left_container > .details > div , .score > div > .details > div {
+home > .left_container > .details > div , .score >  .details > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,20 +174,20 @@ home > .left_container > .details > div , .score > div > .details > div {
     border-left: 1px rgba(128, 128, 128, 0.299) solid;
     height: fit-content;
     padding-bottom: 2%;
-    width: 50%;
+    
 }
-home > .left_container > .details > div > h1, .score > div > .details > div > h1 {
+home > .left_container > .details > div > h1, .score > .details > div > h1 {
     padding-top: 10px;
     font-size: 27px;
 }
-home > .left_container > .details > div > P , .score > div > .details > div > p {
+home > .left_container > .details > div > P , .score > .details > div > p {
     margin-top: 4px;
     font-size: 14px;
     text-align: center;
     line-height: 20px;
     padding: 0px 5px;
 }
-home > .left_container > .details > div:first-child , .score > div > .details > div:first-child {
+home > .left_container > .details > div:first-child , .score > .details > div:first-child {
     border-left: none;
 }
 home > .right_container {
