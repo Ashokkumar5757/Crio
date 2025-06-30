@@ -154,7 +154,7 @@ home > .left_container > .details , .score > .details {
     border-radius: 20px;
 }
 home > .left_container > .details > div, .score > .details > div {
-    width: 10em;
+    width: 20%;
 }
 .score  {
     display: flex;
