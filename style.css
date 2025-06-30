@@ -90,13 +90,13 @@ body  nav > .topic > a:last-child:hover{
     background-color: darkgreen;
 }
 content > home {
-    margin: 37px 8% 1% 9%;
+    margin: 4% 8% 1% 8%;
     display: flex;
-    column-gap: 4%;
+    column-gap: 10%;
 }
 home > .left_container {
-     height: 580px;
-     width: 700px;
+     height: fit-content;
+     width: 50%;
 }
 home > .left_container > h1 {
     font-size: 50px;
@@ -174,7 +174,7 @@ home > .left_container > .details > div , .score > .details > div {
     border-left: 1px rgba(128, 128, 128, 0.299) solid;
     height: fit-content;
     padding-bottom: 2%;
-    width: 20%;
+    width: 10em;
     
 }
 home > .left_container > .details > div > h1, .score > .details > div > h1 {
@@ -1507,7 +1507,6 @@ table #correct {
 .contents > .content > .contact > h1 > i {
     padding-right: 4%;
     margin-left: -6%;
-    font-size: 100%;
 }
 .contact > i ,.contact > .customer > i,.contact > .enquiries > i {
     position: absolute;
