@@ -174,7 +174,7 @@ home > .left_container > .details > div , .score > .details > div {
     border-left: 1px rgba(128, 128, 128, 0.299) solid;
     height: fit-content;
     padding-bottom: 2%;
-    width: 10em;
+    width: 20%;
     
 }
 home > .left_container > .details > div > h1, .score > .details > div > h1 {
