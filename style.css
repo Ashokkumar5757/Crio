@@ -199,7 +199,7 @@ home > .right_container {
     padding: 3% 2%;
     box-shadow:0px 0px 4px 0px rgb(220, 220, 220);
     margin-top: 10px;
-    height:fit-content;
+    height: 100%;
     background-color: #e8f4f4;
 }
 home > .right_container > div > input ,home > .right_container > div > select,home > .right_container > div > button{
@@ -486,7 +486,8 @@ content > .project > .project_details > .image_container > .images {
     font-size: 14px;
     margin-bottom: 8%;
     width: 8vw;
-    height:4vh ;
+    padding: 2%;
+    height:fit-content;
 }
 @keyframes scrollpause {
     0%{
@@ -1510,7 +1511,7 @@ table #correct {
 }
 .contact > i ,.contact > .customer > i,.contact > .enquiries > i {
     position: absolute;
-    font-size: 120%;
+    font-size: 1.2em;
     left: 10%;
 }
 .contents > .content > .contact > .customer,.contact > .enquiries {
