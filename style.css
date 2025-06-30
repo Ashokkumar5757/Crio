@@ -713,8 +713,9 @@ content > .free_trail > .book_trail > .left_container,content > .SDET > .book_tr
 }
 .SDET > .book_trail > .left_container > .specialisation > div,.AI > .book_trail > .left_container > .specialisation > div {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    width: 32%;
+    width: 33%;
     background-color:rgba(0,66,70,255);
 }
 .book_trail > .left_container > .specialisation > div > h1 {
@@ -1511,6 +1512,7 @@ table #correct {
 }
 .contact > i ,.contact > .customer > i,.contact > .enquiries > i {
     position: absolute;
+    font-size: 120%;
     left: 10%;
 }
 .contents > .content > .contact > .customer,.contact > .enquiries {
